@@ -80,7 +80,7 @@ INSTALLED_APPS = (
 )
 
 try:
-   from impl_settings import *
+   from local_settings import *
 except ImportError, e:
    pass
 
